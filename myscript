@@ -1,0 +1,56 @@
+#!/bin/bash
+
+#var1=50
+#var2=100
+#fname=mohab
+#sname=khalifa
+
+#echo $var1
+#echo $var2
+#echo $fname
+#echo $sname
+
+#if [ -n var1 ]
+#then echo The test returned true!
+#else echo The test returned false!
+#fi
+
+#if [ $var1 -ge $var2 ]
+#then echo The test returned true!
+#else echo The test returned false!
+#fi
+
+#if [ $PROCESSOR_LEVEL -ge 100 ]
+#then echo "hurrah"
+#else echo "boo"
+#fi
+
+#if [ $PROCESSOR_LEVEL -lt 100 ]
+#then echo "hurrah"
+#else echo "boo"
+#fi
+
+#this is loop practise
+
+#for i in dog sheep horse rat
+#do
+#     echo "This loop 1 is equal to: $i"
+#done
+
+
+#mathsvar=1
+
+#while [ $mathsvar -lt 100 ]
+#do echo $mathsvar
+#let "${mathsvar}=${mathsvar} + 1"
+#done
+
+read fname
+
+if [ $fname = 'mohab' ]
+then
+    echo "Hello Mohab, how are you?"
+elif [ $name = 'Ilyas' ]
+    echo "this is the wrong person"
+fi
+
